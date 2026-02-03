@@ -358,7 +358,7 @@
 
                 <!-- Project 5 -->
                 <div class="sticky top-[13vh] z-50 flex items-start justify-center px-2 md:px-8 pt-4">
-                    <div class="project-card purple-card relative overflow-hidden w-full max-w-4xl min-h-[60vh] md:min-h-[70vh] bg-gradient-to-br from-purple-900/90 to-pink-800/70 backdrop-blur-md rounded-3xl p-4 md:p-12 border border-purple-500/30 shadow-2xl shadow-purple-500/20 cursor-pointer" onclick="window.open('https://github.com/yasinun', '_blank')">
+                    <div class="project-card purple-card relative overflow-hidden w-full max-w-4xl min-h-[60vh] md:min-h-[70vh] bg-gradient-to-br from-purple-900/90 to-pink-800/70 backdrop-blur-md rounded-3xl p-4 md:p-12 border border-purple-500/30 shadow-2xl shadow-purple-500/20 cursor-pointer" onclick="window.open('https://github.com/deropiee', '_blank')">
                         <div class="shimmer-effect absolute inset-0 rounded-3xl pointer-events-none"></div>
                         <div class="relative z-10 text-center mb-6">
                             <span class="float-icon inline-block text-6xl md:text-8xl">💻</span>
