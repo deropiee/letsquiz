@@ -390,7 +390,7 @@
                         </div>
 
                         <div class="relative z-10 text-center">
-                            <a href="https://github.com/yasinun" target="_blank" class="pulse-cta inline-flex items-center gap-2 px-8 py-4 bg-purple-600 hover:bg-purple-700 text-white text-lg font-bold rounded-xl transition-all transform hover:scale-105 shadow-lg">
+                            <a href="https://github.com/deropiee" target="_blank" class="pulse-cta inline-flex items-center gap-2 px-8 py-4 bg-purple-600 hover:bg-purple-700 text-white text-lg font-bold rounded-xl transition-all transform hover:scale-105 shadow-lg">
                                 Bekijk GitHub →
                             </a>
                         </div>
@@ -506,10 +506,10 @@
                         <a href="mailto:yasinun39610@gmail.com" class="contact-btn group inline-flex items-center justify-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-blue-600 hover:bg-blue-700 text-white text-sm md:text-base rounded-lg transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25">
                             <span class="group-hover:animate-bounce">📧</span> Email me
                         </a>
-                        <a href="https://github.com/yasinun" target="_blank" class="contact-btn group inline-flex items-center justify-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-purple-600 hover:bg-purple-700 text-white text-sm md:text-base rounded-lg transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-purple-500/25">
+                        <a href="https://github.com/deropiee" target="_blank" class="contact-btn group inline-flex items-center justify-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-purple-600 hover:bg-purple-700 text-white text-sm md:text-base rounded-lg transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-purple-500/25">
                             <span class="group-hover:animate-bounce">💻</span> GitHub
                         </a>
-                        <a href="https://linkedin.com/in/yasinun" target="_blank" class="contact-btn group inline-flex items-center justify-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-blue-700 hover:bg-blue-800 text-white text-sm md:text-base rounded-lg transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25">
+                        <a href="https://www.linkedin.com/in/yasin-%C3%BCn-5866a2302/" target="_blank" class="contact-btn group inline-flex items-center justify-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-blue-700 hover:bg-blue-800 text-white text-sm md:text-base rounded-lg transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25">
                             <span class="group-hover:animate-bounce">🔗</span> LinkedIn
                         </a>
                     </div>
