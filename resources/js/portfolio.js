@@ -429,3 +429,38 @@ function animateCounter(element, target, duration = 2000) {
         }
     }, 16);
 }
+
+/**
+ * CamGuard Video Popup Functions
+ */
+window.openCamGuardVideo = function() {
+    // Vervang VIDEO_ID met je YouTube video ID
+    const videoId = 'fp3CZoAzmgs'; // Wijzig dit naar je unlisted video ID
+    const popup = document.getElementById('camGuardPopup');
+    const iframe = document.getElementById('camGuardVideo');
+
+    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+    popup.classList.remove('hidden');
+    popup.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+}
+
+window.closeCamGuardVideo = function() {
+    const popup = document.getElementById('camGuardPopup');
+    const iframe = document.getElementById('camGuardVideo');
+
+    popup.classList.add('hidden');
+    popup.classList.remove('flex');
+    iframe.src = '';
+    document.body.style.overflow = 'auto';
+}
+
+// Close CamGuard video on ESC key
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        const popup = document.getElementById('camGuardPopup');
+        if (popup && !popup.classList.contains('hidden')) {
+            closeCamGuardVideo();
+        }
+    }
+});

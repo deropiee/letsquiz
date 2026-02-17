@@ -235,6 +235,8 @@
                             <span class="px-4 py-2 bg-cyan-500/20 text-cyan-300 rounded-full text-sm">Tailwind CSS</span>
                         </div>
 
+                                                <p class="relative z-10 text-sm text-gray-400 text-center mb-4">School project</p>
+
                         <!-- What I learned -->
                         <div class="relative z-10 bg-white/5 rounded-xl p-4 mb-6">
                             <p class="text-sm text-gray-400 text-center">💡 <span class="text-white">Geleerd:</span> React state/hooks, API fetch, environment variables, Vite bundling</p>
@@ -250,6 +252,57 @@
 
                 <!-- Project 3 -->
                 <div class="sticky top-[9vh] z-30 flex items-start justify-center px-2 md:px-8 pt-4">
+                    <div class="project-card purple-card relative overflow-hidden w-full max-w-4xl min-h-[60vh] md:min-h-[70vh] bg-gradient-to-br from-purple-900/90 to-indigo-800/70 backdrop-blur-md rounded-3xl p-4 md:p-12 border border-purple-500/30 shadow-2xl shadow-purple-500/20 cursor-pointer" onclick="openCamGuardVideo()">
+                        <div class="shimmer-effect absolute inset-0 rounded-3xl pointer-events-none"></div>
+                        <div class="relative z-10 text-center mb-6">
+                            <span class="float-icon inline-block text-6xl md:text-8xl">📹</span>
+                        </div>
+                        <h3 class="relative z-10 text-3xl md:text-5xl font-bold text-white text-center mb-4">CamGuard</h3>
+                        <p class="relative z-10 text-lg md:text-xl text-gray-300 text-center mb-6">Een security camera monitoring systeem demo</p>
+
+                        <!-- Features -->
+                        <div class="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                            <div class="text-center p-3 bg-purple-500/10 rounded-xl">
+                                <div class="text-2xl mb-1">📡</div>
+                                <p class="text-xs text-purple-300">Scanner</p>
+                            </div>
+                            <div class="text-center p-3 bg-purple-500/10 rounded-xl">
+                                <div class="text-2xl mb-1">🌐</div>
+                                <p class="text-xs text-purple-300">API</p>
+                            </div>
+                            <div class="text-center p-3 bg-purple-500/10 rounded-xl">
+                                <div class="text-2xl mb-1">🔐</div>
+                                <p class="text-xs text-purple-300">Security</p>
+                            </div>
+                            <div class="text-center p-3 bg-purple-500/10 rounded-xl">
+                                <div class="text-2xl mb-1">🎥</div>
+                                <p class="text-xs text-purple-300">BeveiligingsCamera's</p>
+                            </div>
+                        </div>
+
+                        <div class="relative z-10 flex flex-wrap justify-center gap-3 mb-4">
+                            <span class="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-sm">Scanner</span>
+                            <span class="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-sm">Monitoring</span>
+                            <span class="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-sm">CyberSecurity</span>
+                        </div>
+
+                        <p class="relative z-10 text-sm text-gray-400 text-center mb-4">RCyberSecurity</p>
+
+                        <!-- What I learned -->
+                        <div class="relative z-10 bg-white/5 rounded-xl p-4 mb-6">
+                            <p class="text-sm text-gray-400 text-center">💡 <span class="text-white">Geleerd:</span> Flask, API, Shodan, ngrok, python</p>
+                        </div>
+
+                        <div class="relative z-10 text-center">
+                            <button onclick="openCamGuardVideo()" class="pulse-cta inline-flex items-center gap-2 px-8 py-4 bg-purple-600 hover:bg-purple-700 text-white text-lg font-bold rounded-xl transition-all transform hover:scale-105 shadow-lg">
+                                Bekijk Demo →
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="sticky top-[11vh] z-40 flex items-start justify-center px-2 md:px-8 pt-4">
                     <div class="project-card orange-card relative overflow-hidden w-full max-w-4xl min-h-[60vh] md:min-h-[70vh] bg-gradient-to-br from-orange-900/90 to-red-800/70 backdrop-blur-md rounded-3xl p-4 md:p-12 border border-orange-500/30 shadow-2xl shadow-orange-500/20 cursor-pointer" onclick="window.open('https://halalmf.itch.io/big-randy', '_blank')">
                         <div class="shimmer-effect absolute inset-0 rounded-3xl pointer-events-none"></div>
                         <div class="relative z-10 text-center mb-6">
@@ -302,8 +355,8 @@
                     </div>
                 </div>
 
-                <!-- Project 4 -->
-                <div class="sticky top-[11vh] z-40 flex items-start justify-center px-2 md:px-8 pt-4">
+                <!-- Project 5 -->
+                <div class="sticky top-[13vh] z-50 flex items-start justify-center px-2 md:px-8 pt-4">
                     <div class="project-card green-card relative overflow-hidden w-full max-w-4xl min-h-[60vh] md:min-h-[70vh] bg-gradient-to-br from-green-900/90 to-teal-800/70 backdrop-blur-md rounded-3xl p-4 md:p-12 border border-green-500/30 shadow-2xl shadow-green-500/20 cursor-pointer" onclick="window.open('https://halalmf.itch.io/reality-check', '_blank')">
                         <div class="shimmer-effect absolute inset-0 rounded-3xl pointer-events-none"></div>
                         <div class="relative z-10 text-center mb-6">
@@ -356,9 +409,9 @@
                     </div>
                 </div>
 
-                <!-- Project 5 -->
-                <div class="sticky top-[13vh] z-50 flex items-start justify-center px-2 md:px-8 pt-4">
-                    <div class="project-card purple-card relative overflow-hidden w-full max-w-4xl min-h-[60vh] md:min-h-[70vh] bg-gradient-to-br from-purple-900/90 to-pink-800/70 backdrop-blur-md rounded-3xl p-4 md:p-12 border border-purple-500/30 shadow-2xl shadow-purple-500/20 cursor-pointer" onclick="window.open('https://github.com/deropiee', '_blank')">
+                <!-- Project 6 -->
+                <div class="sticky top-[15vh] githubz flex items-start justify-center px-2 md:px-8 pt-4">
+                    <div class="project-card pink-card relative overflow-hidden w-full max-w-4xl min-h-[60vh] md:min-h-[70vh] bg-gradient-to-br from-pink-900/90 to-rose-800/70 backdrop-blur-md rounded-3xl p-4 md:p-12 border border-pink-500/30 shadow-2xl shadow-pink-500/20 cursor-pointer" onclick="window.open('https://github.com/deropiee', '_blank')">
                         <div class="shimmer-effect absolute inset-0 rounded-3xl pointer-events-none"></div>
                         <div class="relative z-10 text-center mb-6">
                             <span class="float-icon inline-block text-6xl md:text-8xl">💻</span>
@@ -368,20 +421,20 @@
 
                         <!-- GitHub Stats -->
                         <div class="relative z-10 flex flex-wrap justify-center gap-4 mb-6">
-                            <div class="text-center p-3 bg-purple-500/10 rounded-xl min-w-[100px]">
+                            <div class="text-center p-3 bg-pink-500/10 rounded-xl min-w-[100px]">
                                 <div class="text-2xl mb-1">📁</div>
-                                <p class="text-xs text-purple-300">Repositories</p>
+                                <p class="text-xs text-pink-300">Repositories</p>
                             </div>
-                            <div class="text-center p-3 bg-purple-500/10 rounded-xl min-w-[100px]">
+                            <div class="text-center p-3 bg-pink-500/10 rounded-xl min-w-[100px]">
                                 <div class="text-2xl mb-1">🔥</div>
-                                <p class="text-xs text-purple-300">Contributions</p>
+                                <p class="text-xs text-pink-300">Contributions</p>
                             </div>
                         </div>
 
                         <div class="relative z-10 flex flex-wrap justify-center gap-3 mb-6">
-                            <span class="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-sm">Repositories</span>
-                            <span class="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-sm">Code</span>
-                            <span class="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-sm">Version Control</span>
+                            <span class="px-4 py-2 bg-pink-500/20 text-pink-300 rounded-full text-sm">Repositories</span>
+                            <span class="px-4 py-2 bg-pink-500/20 text-pink-300 rounded-full text-sm">Code</span>
+                            <span class="px-4 py-2 bg-pink-500/20 text-pink-300 rounded-full text-sm">Version Control</span>
                         </div>
 
                         <!-- Info box -->
@@ -390,7 +443,7 @@
                         </div>
 
                         <div class="relative z-10 text-center">
-                            <a href="https://github.com/deropiee" target="_blank" class="pulse-cta inline-flex items-center gap-2 px-8 py-4 bg-purple-600 hover:bg-purple-700 text-white text-lg font-bold rounded-xl transition-all transform hover:scale-105 shadow-lg">
+                            <a href="https://github.com/deropiee" target="_blank" class="pulse-cta inline-flex items-center gap-2 px-8 py-4 bg-pink-600 hover:bg-pink-700 text-white text-lg font-bold rounded-xl transition-all transform hover:scale-105 shadow-lg">
                                 Bekijk GitHub →
                             </a>
                         </div>
@@ -525,6 +578,23 @@
                     <span class="w-2 h-2 bg-cyan-500 rounded-full animate-pulse animation-delay-4000"></span>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- CamGuard Video Popup -->
+    <div id="camGuardPopup" class="fixed inset-0 bg-black/90 backdrop-blur-sm z-[9999] hidden items-center justify-center p-4" onclick="closeCamGuardVideo()">
+        <div class="relative w-full max-w-6xl aspect-video" onclick="event.stopPropagation()">
+            <button onclick="closeCamGuardVideo()" class="absolute -top-12 right-0 text-white hover:text-purple-400 transition-colors z-10">
+                <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+            <iframe id="camGuardVideo" class="w-full h-full rounded-2xl shadow-2xl"
+                    src=""
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
         </div>
     </div>
 </body>
