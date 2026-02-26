@@ -131,7 +131,7 @@
             </div>
 
             <!-- Sticky Cards Container -->
-            <div class="relative" style="min-height: 310vh;">
+            <div class="relative" style="min-height: 370vh;">
 
                 <!-- Project 1 -->
                 <div class="sticky top-[5vh] z-10 flex items-start justify-center px-2 md:px-8 pt-4">
@@ -303,6 +303,67 @@
 
                 <!-- Project 4 -->
                 <div class="sticky top-[11vh] z-40 flex items-start justify-center px-2 md:px-8 pt-4">
+                    <div class="project-card amber-card relative overflow-hidden w-full max-w-4xl min-h-[60vh] md:min-h-[70vh] bg-gradient-to-br from-amber-900/90 to-yellow-800/70 backdrop-blur-md rounded-3xl p-4 md:p-12 border border-amber-500/30 shadow-2xl shadow-amber-500/20 cursor-pointer" onclick="window.open('https://halalmf.itch.io/burd', '_blank')">
+                        <div class="shimmer-effect absolute inset-0 rounded-3xl pointer-events-none"></div>
+
+                        <!-- WIP Badge -->
+                        <div class="absolute top-4 right-4 z-20 px-3 py-1 bg-amber-500/30 border border-amber-400/50 rounded-full">
+                            <span class="text-amber-300 text-xs font-bold">🚧 In Development</span>
+                        </div>
+
+                        <div class="relative z-10 text-center mb-6">
+                            <span class="float-icon inline-block text-6xl md:text-8xl">🐦</span>
+                        </div>
+                        <h3 class="relative z-10 text-3xl md:text-5xl font-bold text-white text-center mb-4">Burd</h3>
+                        <p class="relative z-10 text-lg md:text-xl text-gray-300 text-center mb-6">Een Unity project dat de front-end aspecten laat zien. nog in ontwikkeling</p>
+
+                        <!-- Features -->
+                        <div class="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                            <div class="text-center p-3 bg-amber-500/10 rounded-xl">
+                                <div class="text-2xl mb-1">🎨</div>
+                                <p class="text-xs text-amber-300">UI Design</p>
+                            </div>
+                            <div class="text-center p-3 bg-amber-500/10 rounded-xl">
+                                <div class="text-2xl mb-1">🖥️</div>
+                                <p class="text-xs text-amber-300">Front-End</p>
+                            </div>
+                            <div class="text-center p-3 bg-amber-500/10 rounded-xl">
+                                <div class="text-2xl mb-1">🎮</div>
+                                <p class="text-xs text-amber-300">Unity</p>
+                            </div>
+                            <div class="text-center p-3 bg-amber-500/10 rounded-xl">
+                                <div class="text-2xl mb-1">🐤</div>
+                                <p class="text-xs text-amber-300">Blender</p>
+                            </div>
+                        </div>
+
+                        <div class="relative z-10 flex flex-wrap justify-center gap-3 mb-4">
+                            <span class="px-4 py-2 bg-amber-500/20 text-amber-300 rounded-full text-sm">Unity</span>
+                            <span class="px-4 py-2 bg-amber-500/20 text-amber-300 rounded-full text-sm">C#</span>
+                            <span class="px-4 py-2 bg-amber-500/20 text-amber-300 rounded-full text-sm">UI/UX</span>
+                            <span class="px-4 py-2 bg-amber-500/20 text-amber-300 rounded-full text-sm">Front-End</span>
+                        </div>
+
+                        <p class="relative z-10 text-sm text-gray-400 text-center mb-4">🚧 Project is nog niet af</p>
+
+                        <!-- What I learned -->
+                        <div class="relative z-10 bg-white/5 rounded-xl p-4 mb-4">
+                            <p class="text-sm text-gray-400 text-center">💡 <span class="text-white">Geleerd:</span> Unity UI systemen, front-end design in game engines, C# scripting, user experience, game optimizing, blender</p>
+                        </div>
+
+                        <p class="relative z-10 text-sm text-white/80 text-center mb-6 bg-white/10 inline-block mx-auto px-4 py-2 rounded-full">🔑 Wachtwoord: 1234</p>
+
+
+                        <div class="relative z-10 text-center">
+                            <a href="https://halalmf.itch.io/burd" target="_blank" class="pulse-cta inline-flex items-center gap-2 px-8 py-4 bg-amber-600 hover:bg-amber-700 text-white text-lg font-bold rounded-xl transition-all transform hover:scale-105 shadow-lg">
+                                Bekijk op itch.io →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="sticky top-[13vh] z-50 flex items-start justify-center px-2 md:px-8 pt-4">
                     <div class="project-card orange-card relative overflow-hidden w-full max-w-4xl min-h-[60vh] md:min-h-[70vh] bg-gradient-to-br from-orange-900/90 to-red-800/70 backdrop-blur-md rounded-3xl p-4 md:p-12 border border-orange-500/30 shadow-2xl shadow-orange-500/20 cursor-pointer" onclick="window.open('https://halalmf.itch.io/big-randy', '_blank')">
                         <div class="shimmer-effect absolute inset-0 rounded-3xl pointer-events-none"></div>
                         <div class="relative z-10 text-center mb-6">
@@ -355,8 +416,8 @@
                     </div>
                 </div>
 
-                <!-- Project 5 -->
-                <div class="sticky top-[13vh] z-50 flex items-start justify-center px-2 md:px-8 pt-4">
+                <!-- Project 6 -->
+                <div class="sticky top-[15vh] githubz flex items-start justify-center px-2 md:px-8 pt-4">
                     <div class="project-card green-card relative overflow-hidden w-full max-w-4xl min-h-[60vh] md:min-h-[70vh] bg-gradient-to-br from-green-900/90 to-teal-800/70 backdrop-blur-md rounded-3xl p-4 md:p-12 border border-green-500/30 shadow-2xl shadow-green-500/20 cursor-pointer" onclick="window.open('https://halalmf.itch.io/reality-check', '_blank')">
                         <div class="shimmer-effect absolute inset-0 rounded-3xl pointer-events-none"></div>
                         <div class="relative z-10 text-center mb-6">
@@ -409,8 +470,8 @@
                     </div>
                 </div>
 
-                <!-- Project 6 -->
-                <div class="sticky top-[15vh] githubz flex items-start justify-center px-2 md:px-8 pt-4">
+                <!-- Project 7 -->
+                <div class="sticky top-[17vh] z-70 flex items-start justify-center px-2 md:px-8 pt-4">
                     <div class="project-card pink-card relative overflow-hidden w-full max-w-4xl min-h-[60vh] md:min-h-[70vh] bg-gradient-to-br from-pink-900/90 to-rose-800/70 backdrop-blur-md rounded-3xl p-4 md:p-12 border border-pink-500/30 shadow-2xl shadow-pink-500/20 cursor-pointer" onclick="window.open('https://github.com/deropiee', '_blank')">
                         <div class="shimmer-effect absolute inset-0 rounded-3xl pointer-events-none"></div>
                         <div class="relative z-10 text-center mb-6">

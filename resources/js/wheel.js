@@ -16,7 +16,6 @@
     const modalBackdrop = modal ? modal.querySelector('[data-close]') : null;
         const gemsEl = document.getElementById('gems');
 
-        // realistic segments based on ~1000 gems per quiz (10 q × 100g)
         const segments = [
             { label: "💎500",   amount: 500,   weight: 25 },
             { label: "💎1000",  amount: 1000,  weight: 20 },
@@ -42,7 +41,7 @@
 
         let spinning = false;
         let sendingGems = false;
-        let cooldown = 5; // seconds for testing; change to 24*3600 in production
+        let cooldown = 5; // seconds for testing, change to 24 hourds when deployed for production
         let cooldownInterval;
 
         function getNumericValueFromEl(el) {

@@ -157,9 +157,17 @@
     z-index: 60;
 }
 
+.z-70 {
+    z-index: 70;
+}
+
 /* Card Glow Colors */
 .project-card.blue-card {
     --card-glow-color: rgba(59, 130, 246, 0.5);
+}
+
+.project-card.amber-card {
+    --card-glow-color: rgba(245, 158, 11, 0.5);
 }
 
 .project-card.cyan-card {
